@@ -16,3 +16,8 @@ print("====================Insert======================")
 # Menyisipkan elemen pada indeks tertentu
 buah_buahan.insert(1, 'pisang')
 print("Setelah insert pisang pada indeks 1:", buah_buahan)
+
+print("====================Remove======================")
+# Menghapus elemen tertentu dari list
+buah_buahan.remove('pisang')
+print("Setelah remove pisang:", buah_buahan)
