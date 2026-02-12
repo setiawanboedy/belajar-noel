@@ -76,3 +76,15 @@ luas_segitiga = hitung_luas_segitiga(alas_segitiga, tinggi_segitiga)
 print(f"Luas segitiga dengan alas {alas_segitiga} dan tinggi {tinggi_segitiga} adalah: {luas_segitiga}")
 
 
+print("====================Rumus mean======================")
+
+# Latihan menghitung mean dari sebuah list
+def hitung_mean(angka_list):
+    total = sum(angka_list)
+    jumlah = len(angka_list)
+    mean = total / jumlah
+    return mean
+
+angka_list = [10, 20, 30, 40, 50]
+hasil_mean = hitung_mean(angka_list)
+print(f"Mean dari {angka_list} adalah: {hasil_mean}")
